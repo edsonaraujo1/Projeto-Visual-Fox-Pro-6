@@ -1,0 +1,13 @@
+CLEAR
+_SCREEN.visible=.T.
+*_Screen.Icon   = "C:\SISTEMA2000\GRAPHICS\SIND.ICO"
+DEFINE WINDOW WOUT;
+   FROM 1,1 TO 45,75;
+   TITLE "Janela de Comandos ";
+   FONT "Courier New", 9 STYLE "B";
+   MINIMIZE;
+   FLOAT;
+   CLOSE;
+   ICON FILE "C:\seetur2000\GRAPHICS\SIND.ICO";
+   GROW
+ACTIVATE WINDOW WOUT
